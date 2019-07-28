@@ -9,8 +9,9 @@ These start up the MegaMek server at boot time with a "screen" process.
 
 1. Copy **megamek** into **/etc/init.d** - make sure it is executable
 2. Copy **startmegamek** into **/root/megamek** - make sure it is executable
-3. Run "**systemctl enable megamek**" (only needed once, will stick)
-4. Run "**systemctl start megamek**" - starts MegaMek server without restarting the OS.
+3. Copy **MegaMekProcess** into **/root/megamek** - make sure it is executable
+4. Run "**systemctl enable megamek**" (only needed once, will stick)
+5. Run "**systemctl start megamek**" - starts MegaMek server without restarting the OS.
 
 When you want to view the Megamek console, just enter "**screen -r**" in your shell.
 
