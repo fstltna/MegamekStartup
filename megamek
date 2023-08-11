@@ -27,7 +27,7 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-my $MEGAMEKDIR = "/root/megamek";
+my $MEGAMEKDIR = "/home/megamek/megamek";
 
 my $Command = $ARGV[0];
 if ($Command eq "")
@@ -35,7 +35,7 @@ if ($Command eq "")
 	$Command = "NONE";
 }
 
-my $running=`ps ax|grep MegaMekProcess|grep -v grep`;
+my $running=`ps ax|grep MegaMek.jar|grep -v grep`;
 
 if ($Command eq "start")
 {
