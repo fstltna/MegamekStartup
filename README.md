@@ -1,4 +1,4 @@
-# Megamek Startup Scripts (1.1.1)
+# Megamek Startup Scripts (1.1.2)
 Startup scripts for the MegaMek game server software - uses the "screen" command to manage the session. This also restarts the Megamek server process if it crashes.
 
 Official support sites: [Official Github Repo](https://github.com/fstltna/MegamekStartup) - [Official Forum](https://mekcity.com/index.php/forum/megamek)
