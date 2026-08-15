@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/megamek/megamek
+cd /home/mekuser/mekhq
 #/usr/bin/java -Xmx1024m -jar MegaMek.jar -dedicated -port 2346 -password qwweassdzxxc
 /usr/bin/java -jar MegaMek.jar -dedicated -port 2346 -password qwweassdzxxc
 exit 0
